@@ -15,8 +15,6 @@ Installation【安装教程】：<br>
 
 5: You can use it like this example:
 
-<?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
