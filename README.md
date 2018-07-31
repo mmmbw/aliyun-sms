@@ -1,5 +1,5 @@
 # aliyun-sms
-laravel-aliyun-sms
+laravel-aliyun-sms，阿里云短信，基于2018-07-31下载的阿里云短信SDK
 
 Installation【安装教程】：<br>
 
