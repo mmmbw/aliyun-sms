@@ -16,7 +16,7 @@ Installation【安装教程】：<br>
 4：run[运行]：php artisan vendor:publish --provider="Cisco\Aliyunsms\AliyunsmsServiceProvider" <br>
 
 5：You can use it like this : <br>
-<?php
+<pre><?php</pre>
 namespace App\Http\Controllers; <br>
 
 use Illuminate\Http\Request; <br>
