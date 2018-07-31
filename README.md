@@ -1,14 +1,14 @@
 # aliyun-sms
 laravel-aliyun-sms
 
-Installation【安装教程】：
+Installation【安装教程】：<br>
 
-1：composer require cisco/laravel-aliyunsms dev-master
+1：composer require cisco/laravel-aliyunsms dev-master <br>
 
 2: add in config/app.php [在config/app.php添加]：<br>
-  	  providers： Cisco\Aliyunsms\AliyunsmsServiceProvider::class
- 	    aliases：  'Aliyunsms' => Cisco\Alinyunsms\Facades\Aliyunsms::class
+  	  providers： Cisco\Aliyunsms\AliyunsmsServiceProvider::class <br>
+ 	    aliases：  'Aliyunsms' => Cisco\Alinyunsms\Facades\Aliyunsms::class <br>
   
-3：composer dump-autoload
+3：composer dump-autoload <br>
 
-4：php artisan vendor:publish --provider="Cisco\Aliyunsms\AliyunsmsServiceProvider"
+4：php artisan vendor:publish --provider="Cisco\Aliyunsms\AliyunsmsServiceProvider" <br>
