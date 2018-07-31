@@ -3,17 +3,17 @@ laravel-aliyun-sms
 
 Installation【安装教程】：<br>
 
-1：run[运行]：composer require cisco/laravel-aliyunsms dev-master <br>
+1：run【运行】：composer require cisco/laravel-aliyunsms dev-master <br>
 
-2：open your config/app.php [在config/app.php添加]：<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add this line in providers section <br>
+2：open your config/app.php 【在config/app.php添加】：<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add this line in providers section【在providers中添加】 <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cisco\Aliyunsms\AliyunsmsServiceProvider::class <br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add this line in aliases section <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add this line in aliases section【在aliases中添加】 <br>
  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'Aliyunsms' => Cisco\Alinyunsms\Facades\Aliyunsms::class <br>
   
-3：run[运行]：composer dump-autoload <br>
+3：run【运行】：composer dump-autoload <br>
 
-4：run[运行]：php artisan vendor:publish --provider="Cisco\Aliyunsms\AliyunsmsServiceProvider" <br>
+4：run【运行】：php artisan vendor:publish --provider="Cisco\Aliyunsms\AliyunsmsServiceProvider" <br>
 
 5：You can use it like this : <br>
 &lt;?php <br>
