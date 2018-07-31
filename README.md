@@ -15,28 +15,28 @@ Installation【安装教程】：<br>
 
 5: You can use it like this example:
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers; <br>
 
-use Illuminate\Http\Request;
-use Cisco\Aliyunsms\Facades\Aliyunsms;
+use Illuminate\Http\Request; <br>
+use Cisco\Aliyunsms\Facades\Aliyunsms; <br>
 
-class UsersController extends Controller
-{
-    /**
-     * send sms to users
-     * @param $PhoneNumber user PhoneNumber
-     * @param $SignName copy from aliyun
-     * @param $TemplateCode copy from aliyun
-     * @param $TemplateParam [this param is an array] check from aliyun
-     * @return Content
-     */
-    public function index($PhoneNumber, $SignName, $TemplateCode, $TemplateParam)
-    {
-        $send = Aliyunsms::sendSms(strval($PhoneNumber), $SignName,  $TemplateCode, $TemplateParam);
-        if ($send->Code == 'OK') {
-            //Success
-        } else {
-            //failed
-        }
-    }
-}
+class UsersController extends Controller <br>
+{ <br>
+    /** <br>
+     * send sms to users <br>
+     * @param $PhoneNumber user PhoneNumber <br>
+     * @param $SignName copy from aliyun <br>
+     * @param $TemplateCode copy from aliyun <br>
+     * @param $TemplateParam [this param is an array] check from aliyun <br>
+     * @return Content <br>
+     */ <br>
+    public function index($PhoneNumber, $SignName, $TemplateCode, $TemplateParam) <br>
+    { <br>
+        $send = Aliyunsms::sendSms(strval($PhoneNumber), $SignName,  $TemplateCode, $TemplateParam); <br>
+        if ($send->Code == 'OK') { <br>
+            //Success <br>
+        } else { <br>
+            //failed <br>
+        } <br>
+    } <br>
+} <br>
