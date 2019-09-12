@@ -6,8 +6,8 @@ laravel-aliyun-sms，阿里云短信，基于2018-07-31下载的阿里云短信S
 1：【运行】：composer require cisco/laravel-aliyunsms dev-master <br>
 
 2：【打开config/app.php】：<br>
-  在providers中添加 Cisco\Aliyunsms\AliyunsmsServiceProvider::class <br>
-   在aliases中添加】 'Aliyunsms' => Cisco\Alinyunsms\Facades\Aliyunsms::class <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在providers中添加 Cisco\Aliyunsms\AliyunsmsServiceProvider::class <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在aliases中添加】 'Aliyunsms' => Cisco\Alinyunsms\Facades\Aliyunsms::class <br>
   
 3：【运行】：composer dump-autoload <br>
 
